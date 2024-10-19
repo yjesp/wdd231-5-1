@@ -3,103 +3,134 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Website Project Site Plan</title>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <title>Climbing Rocky Mountain Club</title>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto+Slab&family=Lora&display=swap" rel="stylesheet">
     <style>
+        /* Color Scheme */
+        :root {
+            --primary-color: #2C5F2D; /* Dark Green */
+            --secondary-color: #D9CAB3; /* Earthy Beige */
+        }
+
         body {
-            font-family: 'Roboto', sans-serif;
-            color: #333;
-            background-color: #f4f4f4;
-            padding: 20px;
+            font-family: 'Open Sans', sans-serif;
+            background-color: var(--secondary-color);
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: var(--primary-color);
+            color: white;
+            padding: 1rem;
+            text-align: center;
+            font-family: 'Roboto Slab', serif;
         }
 
         h1, h2 {
-            color: #2C3E50;
-        }
-
-        .section {
-            margin-bottom: 20px;
+            color: var(--primary-color);
+            font-family: 'Roboto Slab', serif;
         }
 
         p {
-            line-height: 1.6;
+            color: #333;
         }
 
-        /* Color Schema */
-        .heading-color {
-            color: #2C3E50;
+        .section {
+            margin: 2rem;
+            padding: 1.5rem;
+            background-color: white;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
         }
 
-        .accent-color {
-            color: #2980B9;
+        .wireframe {
+            background-color: var(--primary-color);
+            color: white;
+            padding: 1.5rem;
+            margin: 2rem;
+            border-radius: 10px;
         }
 
-        .background-color {
-            background-color: #EAF2F8;
-            padding: 10px;
-            border-radius: 5px;
-        }
-
-        /* Wireframe */
-        .wireframe img {
-            max-width: 100%;
-            height: auto;
-            border: 1px solid #ddd;
+        footer {
+            background-color: var(--primary-color);
+            color: white;
+            text-align: center;
+            padding: 1rem;
+            margin-top: 2rem;
         }
     </style>
 </head>
 <body>
 
-    <!-- Site Name -->
+    <!-- Header -->
+    <header>
+        <h1>Climbing Rocky Mountain Club</h1>
+        <p>Your adventure starts here!</p>
+    </header>
+
+    <!-- Site Name Section -->
     <section class="section">
-        <h1 class="heading-color">Site Name</h1>
-        <p><strong>Example:</strong> Bay Area eBiking Club</p>
-        <p>This name represents a club that is focused on electric biking in the San Francisco Bay Area.</p>
-        <p><strong>Optional domain:</strong> bay-ebike.org</p>
+        <h2>Site Name</h2>
+        <p>The name <strong>Climbing Rocky Mountain Club</strong> reflects an adventure-driven community focused on rock climbing experiences in the Rocky Mountain region.</p>
+        <p><strong>Optional Domain Availability:</strong> <a href="#">climbrockymountains.org</a></p>
     </section>
 
-    <!-- Site Purpose -->
+    <!-- Site Purpose Section -->
     <section class="section">
-        <h2 class="heading-color">Site Purpose</h2>
-        <p>The site will provide a hub for regional e-biking enthusiasts by offering trail recommendations, e-bike reviews, and a membership information form. It will also list upcoming events and allow members to join the club through an application process.</p>
+        <h2>Site Purpose</h2>
+        <p>The site serves as a hub for climbers of all levels, offering information on climbing routes, safety tips, and gear recommendations. It also provides a platform for club membership sign-ups, event updates, and a community forum for climbers to connect.</p>
     </section>
 
-    <!-- Scenarios -->
+    <!-- Scenarios Section -->
     <section class="section">
-        <h2 class="heading-color">Scenarios</h2>
-        <p><strong>1. What is the best e-bike for mountainous areas?</strong></p>
-        <p>This scenario will help guide content that focuses on product reviews and tips for selecting an e-bike based on terrain.</p>
-        <p><strong>2. Where can I find contact information for the club's directors?</strong></p>
-        <p>This question will help ensure that contact details and membership information are clearly presented for easy access.</p>
-    </section>
-
-    <!-- Color Schema -->
-    <section class="section">
-        <h2 class="heading-color">Color Schema</h2>
-        <p><strong>Primary color:</strong> #2C3E50 (used for headings and titles)</p>
-        <p><strong>Accent color:</strong> #2980B9 (used for links and buttons)</p>
-        <p><strong>Background color:</strong> #EAF2F8 (used for background elements and containers)</p>
-    </section>
-
-    <!-- Typography -->
-    <section class="section">
-        <h2 class="heading-color">Typography</h2>
-        <p><strong>Font:</strong> Roboto (used for all text on the site)</p>
-        <p><strong>Font Usage:</strong></p>
+        <h2>Scenarios</h2>
         <ul>
-            <li>Headings: Roboto Bold</li>
-            <li>Body: Roboto Regular</li>
+            <li><strong>What are the best climbing spots in the Rocky Mountains for beginners and experts?</strong></li>
+            <li><strong>How can I become a member of the Climbing Rocky Mountain Club and participate in club events?</strong></li>
         </ul>
     </section>
 
-    <!-- Wireframe -->
-    <section class="section wireframe">
-        <h2 class="heading-color">Wireframe</h2>
-        <p><strong>Mobile View:</strong></p>
-        <img src="wireframe-mobile.png" alt="Wireframe Mobile View">
-        <p><strong>Desktop View:</strong></p>
-        <img src="wireframe-desktop.png" alt="Wireframe Desktop View">
+    <!-- Color Scheme Section -->
+    <section class="section">
+        <h2>Color Scheme</h2>
+        <ul>
+            <li><strong>Primary Color (Dark Green #2C5F2D):</strong> used for headings and buttons to reflect the rugged and natural outdoor theme.</li>
+            <li><strong>Secondary Color (Earthy Beige #D9CAB3):</strong> used for the background and paragraphs, creating a calm, nature-inspired feel.</li>
+        </ul>
     </section>
+
+    <!-- Typography Section -->
+    <section class="section">
+        <h2>Typography</h2>
+        <ul>
+            <li><strong>Headings:</strong> "Roboto Slab" for bold and clear headings, giving a structured look.</li>
+            <li><strong>Body:</strong> "Open Sans" for clean and easy-to-read paragraphs.</li>
+            <li><strong>Accent Text:</strong> "Lora" for emphasizing important text or quotes.</li>
+        </ul>
+    </section>
+
+    <!-- Wireframe Section -->
+    <section class="wireframe">
+        <h2>Wireframe</h2>
+        <p><strong>Mobile View:</strong></p>
+        <ul>
+            <li>Hero image of the Rocky Mountains with a "Join Us" button.</li>
+            <li>Sections on "Top Climbing Routes", "Upcoming Events", and "Member Spotlights".</li>
+            <li>Sticky navigation for quick access to Home, Routes, Events, and Contact.</li>
+        </ul>
+        <p><strong>Desktop View:</strong></p>
+        <ul>
+            <li>Full-width hero image with top navigation bar.</li>
+            <li>Grid layout for "Top Routes", "Upcoming Club Events", and community forum.</li>
+            <li>Sidebar for quick links to membership and gear recommendations.</li>
+        </ul>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 Climbing Rocky Mountain Club</p>
+    </footer>
 
 </body>
 </html>
